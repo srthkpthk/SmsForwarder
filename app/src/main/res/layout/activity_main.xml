@@ -9,23 +9,23 @@
 
 
     <TextView
-            android:text="Enter the Number here to which you want to forward the sms you recieve"
-            android:layout_width="374dp"
+            android:text="@string/enter_the_number_here_to_which_you_want_to_forward_the_sms_you_recieve"
+            android:layout_width="0dp"
             android:layout_height="103dp" android:id="@+id/textView"
             android:textSize="25sp"
             app:layout_constraintTop_toTopOf="parent" app:layout_constraintEnd_toEndOf="parent"
-            android:layout_marginEnd="16dp" app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginStart="16dp" android:layout_marginTop="76dp"
-            app:layout_constraintHorizontal_bias="0.0"/>
+            android:layout_marginEnd="24dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="24dp" android:layout_marginTop="76dp"
+    />
     <EditText
-            android:layout_width="376dp"
+            android:layout_width="0dp"
             android:layout_height="61dp"
             android:inputType="phone"
             android:ems="10"
             android:id="@+id/phoneNumberInput"
             app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginStart="16dp" app:layout_constraintEnd_toEndOf="parent"
-            android:layout_marginEnd="16dp" app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginStart="24dp" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="24dp" app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView" app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintVertical_bias="0.032"/>
+            app:layout_constraintVertical_bias="0.032" android:autofillHints="Phone number"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

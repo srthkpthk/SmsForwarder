@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Sms Forwarder</string>
+    <string name="enter_the_number_here_to_which_you_want_to_forward_the_sms_you_recieve">Enter the Number here to which
+        you want to forward the sms you recieve
+    </string>
 </resources>
